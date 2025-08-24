@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta más corta"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- Aeropuerto de salida -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aeropuerto de salida:" />
+
+        <EditText
+            android:id="@+id/etAeropuertoSalida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese código IATA o nombre"
+            android:inputType="text" />
+
+        <!-- Aeropuerto de destino -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aeropuerto de destino:"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etAeropuertoDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese código IATA o nombre"
+            android:inputType="text" />
+
+        <!-- Botón para calcular ruta -->
+        <Button
+            android:id="@+id/btnCalcularRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular Ruta"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp" />
+
+        <!-- Resultado: Ruta -->
+        <TextView
+            android:id="@+id/tvRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruta:"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp" />
+
+        <!-- Resultado: Distancia -->
+        <TextView
+            android:id="@+id/tvDistancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distancia total: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto_Es</string>
+    <string name="prompt_origen">Origen</string>
+    <string name="prompt_destino">Destino</string>
+    <string name="prompt_selecciona_aeropuerto">Selecciona Aeropuerto</string>
+    <string name="prompt_selecciona_destino">Selecciona Aeropuerto Destino</string>
+    <string name="prompt_selecciona_aerolinea">Selecciona Aerolinea</string>
+
+</resources>

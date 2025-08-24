@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">SkyGate</string>
+    <string name="prompt_origen" translatable="false">Origen</string>
+    <string name="prompt_destino" translatable="false">Destino</string>
+    <string name="prompt_selecciona_aeropuerto" translatable="false">Selecciona Aeropuerto</string>
+    <string name="prompt_selecciona_destino" translatable="false">Selecciona Aeropuerto Destino</string>
+    <string name="prompt_selecciona_aerolinea" translatable="false">Selecciona Aerolinea</string>
+
+</resources>

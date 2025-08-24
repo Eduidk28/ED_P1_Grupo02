@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="377dp"
+        android:layout_height="460dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAgregarAeropuerto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Aeropuerto"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAgregarVuelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Vuelo"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnEliminarVuelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Vuelo"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCalcularRuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Ruta"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
+

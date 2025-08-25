@@ -1,8 +1,8 @@
-package com.example.ED_P1_Grupo02.Tdas;
+package com.example.ED_P1_Grupo02.Util;
 
 import com.example.ED_P1_Grupo02.Modelo.Aeropuerto;
 import com.example.ED_P1_Grupo02.Modelo.Vuelo;
-import com.example.ED_P1_Grupo02.Util.AeropuertoComparator;
+import com.example.ED_P1_Grupo02.Tdas.GraphAL;
 
 public class GrafoSingleton {
     private static GrafoSingleton instance;

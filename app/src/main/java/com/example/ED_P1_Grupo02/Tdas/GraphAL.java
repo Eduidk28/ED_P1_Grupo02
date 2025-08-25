@@ -191,7 +191,7 @@ public class GraphAL<V, E> implements Serializable {
         while (!pq.isEmpty()) {
             Vertex<V, E> u = pq.poll();
             if (u.equals(target)) {
-                break; //llegamos al destino
+                break;
             }
 
             for (Edge<E, V> edge : u.getEdges()) {
@@ -209,7 +209,7 @@ public class GraphAL<V, E> implements Serializable {
         Vertex<V, E> step = target;
 
         if (prev.get(step) == null && !step.equals(source)) {
-            return null; // en tal caso de que no exista un camino
+            return null;
         }
         while (step != null) {
             ruta.addFirst(step.getContent());

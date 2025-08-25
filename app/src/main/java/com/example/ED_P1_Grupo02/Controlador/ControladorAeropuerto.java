@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.example.ED_P1_Grupo02.Modelo.Aeropuerto;
 import com.example.ED_P1_Grupo02.Modelo.Vuelo;
-import com.example.ED_P1_Grupo02.Tdas.GrafoSingleton;
+import com.example.ED_P1_Grupo02.Util.GrafoSingleton;
 import com.example.ED_P1_Grupo02.Tdas.GraphAL;
 import com.example.ED_P1_Grupo02.Tdas.Vertex;
 

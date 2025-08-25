@@ -171,11 +171,12 @@ public class GraphAL<V, E> implements Serializable {
     public int gradoTotal(V content) {
         return gradoSalida(content) + gradoEntrada(content);
     }
+
     public LinkedList<V> dijkstra(V sourceContent, V targetContent) {
         Vertex<V, E> source = getVertexByContent(sourceContent);
         Vertex<V, E> target = getVertexByContent(targetContent);
         if (source == null || target == null) {
-            return null; // uno de los Ver no existes
+            return null;
         }
         Map<Vertex<V, E>, Integer> distancia = new HashMap<>();
         Map<Vertex<V, E>, Vertex<V, E>> prev = new HashMap<>();
